@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @media (max-width: 800px) {
+            .hero {
+                width: 100vw
+            }
+        }
+        .hero {
+            width: 75vw;
+        }
+    </style>
   </head>
   <body>
-    <div class="hero">
+    <div class="hero w-md-75">
       <div class="row">
         <div class="col-lg-6 col-md-6">
         </div>
         <div class="col-lg-6 col-md-6">
-          <div class="position-absolute bottom-0 p-3">
+          <div class="position-absolute p-3">
               <span style="font-size: 32px; line-height:24px;">Introduction to<br>Youth-Led Accelerator</span>
               <ul class="pt-4" style="font-size: 16px">
                 <li>✅ Belajar berbisnis mulai dari nol</li>
